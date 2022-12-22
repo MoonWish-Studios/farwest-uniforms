@@ -5,9 +5,7 @@ export default function Home() {
   return (
     <div className="">
       <div></div>
-      <button className="px-3 py-2 m-3 font-sans text-white bg-blue-500 rounded-2xl font-inter">
-        Click Me
-      </button>
+      <button className="px-3 py-2 m-3 font-sans text-white bg-blue-500 rounded-2xl font-inter">Click Me</button>
     </div>
   )
 }
