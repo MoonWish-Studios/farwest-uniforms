@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AS long as a folder doesn't have a page.tsx folder, it wouldn't be counted as a route */
+
+/* if you want create a parent folder say "blogs" and in it, the different blog folders, but don't want "/blog" pathname, put (blogs) instead and it will ignore it. It will just be a pretty organizer thingy */
