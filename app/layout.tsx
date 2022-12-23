@@ -9,8 +9,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <Navbar />
-      <body>{children}</body>
+
+      <body className="bg-darkPurple">
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
