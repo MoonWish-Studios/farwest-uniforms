@@ -18,7 +18,7 @@ export default function Navbar() {
           </Link>
           <Link
             href=""
-            className="flex px-4 py-1.5 text-white rounded-lg font-bold md:block hover:bg-brightRedLight bg-gradient-to-r from-gradientSub1 to-gradientSub3 via-gradientSub2"
+            className="flex px-4 py-1.5 text-white rounded-lg font-semibold md:block hover:bg-brightRedLight bg-gradient-to-r from-gradientSub1 to-gradientSub3 via-gradientSub2"
           >
             Make Payment
           </Link>

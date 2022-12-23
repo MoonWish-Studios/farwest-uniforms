@@ -18,6 +18,9 @@ module.exports = {
         gradientSub3: "#F28B6A",
         gradient1: "linear-gradient(to right, gradientSub1 , gradientSub2)",
       },
+      fontFamily: {
+        Outfit: ["Outfit"],
+      },
     },
   },
   plugins: [],
