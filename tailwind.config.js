@@ -19,7 +19,7 @@ module.exports = {
         gradientSub3: "#F28B6A",
       },
       screens: {
-        sm: "630px",
+        sm: "655px",
       },
     },
   },
