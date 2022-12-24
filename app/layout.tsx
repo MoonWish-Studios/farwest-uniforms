@@ -1,6 +1,8 @@
 import "./styles/globals.css"
-import Navbar from "./(components)/Navbar"
+import Navbar from "./components/Navbar"
+import { Outfit } from "@next/font/google"
 
+const outfit = Outfit({ subsets: ["latin"] })
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -10,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       */}
       <head />
 
-      <body className="bg-darkPurple">
+      <body className={`bg-backgroundPurple ${outfit.className}`}>
         <Navbar />
         {children}
       </body>
