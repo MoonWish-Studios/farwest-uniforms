@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkPurple: "#1D1A24",
-        darkerPurple: "#1B182",
+        backgroundPurple: "#1B1822",
+        darkPurple: "#17141D",
         lightPurple: "#453D55",
         textPrimary: "#B9B9B9",
         white: "#F3F3F3",
@@ -19,8 +19,8 @@ module.exports = {
         gradientSub3: "#F28B6A",
         gradient1: "bg-gradient-to-r from-gradientSub1 via-gradientSub2 to-gradientSub3",
       },
-      fontFamily: {
-        Outfit: ["Outfit"],
+      screens: {
+        sm: "655px",
       },
     },
   },

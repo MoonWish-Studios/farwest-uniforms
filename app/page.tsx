@@ -1,5 +1,9 @@
 import Image from "next/image"
-import LearnMoreButton from "./(components)/LearnMoreButton"
+import Link from "next/link"
+import { CaptionText, GradientText, SectionText } from "./components/Text"
+import ReviewSection from "./components/ReviewSection"
+import SectionDivider from "./components/SectionDivider"
+import IndustrySection from "./components/IndustrySection"import LearnMoreButton from "./(components)/LearnMoreButton"
 
 // download headwind extension to autosort classnames so we see the same thing
 export default function Home() {
