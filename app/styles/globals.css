@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-  .abs-avatar {
-    @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  .abs-transform {
+    @apply absolute transform -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
   }
 }
 /* AS long as a folder doesn't have a page.tsx folder, it wouldn't be counted as a route */
