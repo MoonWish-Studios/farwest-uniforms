@@ -1,5 +1,6 @@
 import "./styles/globals.css"
-import Navbar from "./(components)/Navbar"
+import MainNavigation from "./(components)/MainNavigation"
+import Footer from "./(components)/Footer"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -11,8 +12,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
 
       <body className="bg-darkPurple">
-        <Navbar />
+        <MainNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   )
