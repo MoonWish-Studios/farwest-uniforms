@@ -14,7 +14,7 @@ export default function ProcedureSection() {
           <Icon className="w-12 h-12 my-2" src="/assets/procedures/shopping.svg" name="Shopping Icon" />
           <HeadingWhite>Choose Your Products</HeadingWhite>
           <Text>Check out the clothing catalog here for the latest apparel to fit your needs</Text>
-          <GradientButton>Products</GradientButton>
+          <GradientButton href="https://www.sanmar.com/">Products</GradientButton>
         </div>
       </ProcedureStep>
 
@@ -25,8 +25,8 @@ export default function ProcedureSection() {
           <Icon className="w-12 h-12 my-2" src="/assets/procedures/email.svg" name="Email Icon" />
           <HeadingWhite>Contact Us</HeadingWhite>
           <Text>
-            Once you have found the items you want, you can contact us via email, phone call, or in person to tell us
-            what you need
+            Once you have found the items you want, you can contact us via email, phone call, or in person with your
+            designs to receive a quote
           </Text>
         </div>
       </ProcedureStep>

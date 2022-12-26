@@ -12,7 +12,7 @@ interface IconProps extends IndustryProp {
 }
 export default function IndustrySection() {
   return (
-    <div className="my-16 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:max-w-4xl gap-y-8 ">
+    <div className="grid grid-cols-2 mx-auto my-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:max-w-4xl gap-y-8 ">
       {industries.map(({ src, name, id }: IndustryProp) => (
         <Industry key={id} src={src} name={name} className="w-20 h-20 lg:w-24 lg:h-24" />
       ))}
@@ -22,9 +22,9 @@ export default function IndustrySection() {
 
 export function Industry({ src, name, className }: IconProps) {
   return (
-    <figure className="flex flex-col justify-center items-center">
+    <figure className="flex flex-col items-center justify-center">
       <Icon src={src} name={name} className={className} />
-      <figcaption className="pt-1 text-textPrimary tracking-wider font-semibold text-lg">{name}</figcaption>
+      <figcaption className="pt-1 text-lg font-semibold tracking-wider text-textPrimary">{name}</figcaption>
     </figure>
   )
 }
@@ -82,8 +82,8 @@ const industries = [
     id: nanoid(),
   },
   {
-    src: "/assets/industry/schools.svg",
-    name: "Schools",
+    src: "/assets/industry/cannabis.svg",
+    name: "Cannabis",
     id: nanoid(),
   },
   {
