@@ -3,6 +3,14 @@ export interface TextProps {
   className?: string
 }
 
+export function Text({ children }: { children: string }) {
+  return <p className="pt-1 leading-5 w-fit text-textPrimary">{children}</p>
+}
+
+export function HeadingWhite({ children }: { children: string }) {
+  return <h3 className="text-2xl tracking-wide text-white">{children}</h3>
+}
+
 export function GradientText({ children, className }: TextProps) {
   return (
     <h3
