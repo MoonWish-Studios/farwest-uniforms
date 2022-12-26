@@ -11,12 +11,12 @@ export interface ReviewProps {
 export default function Review({ src, name, message }: ReviewProps) {
   return (
     <div className="transition-colors     hover:bg-lightPurple relative sm:w-72 sm:h-[20rem] border border-solid rounded-md bg-darkPurple border-lightPurple w-auto h-64">
-      <div className="group border-lightPurple border-solid border-4 abs-transform top-0 left-1/2 w-20 h-20 rounded-full  overflow-clip">
+      <div className="top-0 w-20 h-20 border-4 border-solid rounded-full group border-lightPurple abs-transform left-1/2 overflow-clip">
         <Image style={{ objectFit: "cover" }} alt={`${name} - Profile Picture`} src={src} fill />
       </div>
 
       <GradientText className="mt-12">{name}</GradientText>
-      <p className="text-textPrimary text-center sm:px-5 px-8 pt-2 text-base pb-6">{message}</p>
+      <blockquote className="px-8 pt-2 pb-6 text-base text-center text-textPrimary sm:px-5">{message}</blockquote>
     </div>
   )
 }
