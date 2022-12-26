@@ -1,5 +1,5 @@
 import "./styles/globals.css"
-import MainNavigation from "./components/MainNavigation"
+import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import { Outfit } from "@next/font/google"
 
@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
 
       <body className="bg-darkPurple">
-        <MainNavigation />
+        <Navbar />
         {children}
         <Footer />
       </body>

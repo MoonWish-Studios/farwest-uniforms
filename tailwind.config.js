@@ -13,6 +13,7 @@ module.exports = {
         darkPurple: "#17141D",
         lightPurple: "#453D55",
         textPrimary: "#B9B9B9",
+        pureWhite: "#FFF",
         white: "#F3F3F3",
         gradientSub1: "#F8A87B",
         gradientSub2: "#FFA5A5",

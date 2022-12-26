@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function LearnMoreButton() {
   return (
     <div className="container h-screen">
-      <div className="flex flex-col items-center justify-center md:items-start">
+      <div className="flex flex-col mt-48 items-center justify-center md:items-start">
         {/* Text */}
-        <div className="mb-8 text-4xl leading-normal text-center md:text-4xl lg:text-5xl md:text-left md:w-2/3 md:pt-40 text-textPrimary">
+        <div className="mb-8 text-4xl leading-normal text-center md:text-4xl lg:text-5xl md:text-left md:w-2/3 md:mt-25 text-textPrimary">
           <span className="font-semibold text-gradientSub1">Quality</span> custom apparel for all industries
         </div>
         {/* Button */}
