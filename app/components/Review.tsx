@@ -11,7 +11,7 @@ export interface ReviewProps {
 export default function Review({ src, name, message }: ReviewProps) {
   return (
     <div className="transition-colors     hover:bg-lightPurple relative sm:w-72 sm:h-[20rem] border border-solid rounded-md bg-darkPurple border-lightPurple w-auto h-64">
-      <div className="top-0 w-20 h-20 border-4 border-solid rounded-full group border-lightPurple abs-transform left-1/2 overflow-clip">
+      <div className="top-0 w-20 h-20 border-4 border-solid rounded-full  border-lightPurple abs-transform left-1/2 overflow-hidden">
         <Image style={{ objectFit: "cover" }} alt={`${name} - Profile Picture`} src={src} fill />
       </div>
 
