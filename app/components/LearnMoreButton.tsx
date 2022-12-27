@@ -27,6 +27,9 @@ export default function LearnMoreButton() {
           // style={{ objectFit: "cover" }}
           alt="people with their shirts made by farwest"
           width={900}
+          sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
           height={600}
         />
       </div>
