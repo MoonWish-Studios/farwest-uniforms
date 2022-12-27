@@ -14,7 +14,9 @@ export default function ProcedureSection() {
           <Icon className="w-12 h-12 my-2" src="/assets/procedures/shopping.svg" name="Shopping Icon" />
           <HeadingWhite>Choose Your Products</HeadingWhite>
           <Text>Check out the clothing catalog here for the latest apparel to fit your needs</Text>
-          <GradientButton href="https://www.sanmar.com/">Products</GradientButton>
+          <GradientButton className="my-3 py-2" href="https://www.sanmar.com/">
+            Products
+          </GradientButton>
         </div>
       </ProcedureStep>
 
