@@ -8,7 +8,7 @@ export default function ReviewSection() {
   return (
     <div className="flex flex-wrap justify-center m-auto transition-all my-28 md:gap-x-6 gap-x-2 gap-y-16 lg:max-w-6xl align-center">
       {reviews.map(({ src, name, message, id }: ReviewProps) => (
-        <Review src={src} name={name} message={message} />
+        <Review src={src} key={name + id} name={name} message={message} />
       ))}
     </div>
   )

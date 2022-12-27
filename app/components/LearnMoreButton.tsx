@@ -4,7 +4,7 @@ import Image from "next/image"
 import GradientButton from "./GradientButton"
 export default function LearnMoreButton() {
   return (
-    <div className="w-screen bg-[url('/homebg.png')] tablet:bg-none home flex tablet:justify-between justify-center  border-b border-lightPurple ">
+    <div className="w-[calc(100vw-1.1rem)] bg-[url('/homebg.png')] tablet:bg-none home flex tablet:justify-between justify-center  border-b border-lightPurple overflow-x-hidden ">
       <div className="mt-28 tablet:mt-0 flex flex-col ml-5 mr-5 md:ml-12 pb-20 items-center justify-center tablet:items-start">
         {/* Text */}
         <h1
@@ -16,7 +16,9 @@ export default function LearnMoreButton() {
           </strong>
           custom apparel for all industries
         </h1>
-        <GradientButton href="https://www.sanmar.com/">View Catalog</GradientButton>
+        <GradientButton className="" href="https://www.sanmar.com/">
+          View Catalog
+        </GradientButton>
       </div>
       <div className="relative -z-index-50 hidden tablet:block w-[800px]  ">
         <Image
@@ -25,6 +27,9 @@ export default function LearnMoreButton() {
           // style={{ objectFit: "cover" }}
           alt="people with their shirts made by farwest"
           width={900}
+          sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
           height={600}
         />
       </div>

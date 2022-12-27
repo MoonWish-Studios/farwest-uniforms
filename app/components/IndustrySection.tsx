@@ -24,14 +24,24 @@ export function Industry({ src, name, className }: IconProps) {
   return (
     <figure className="flex flex-col items-center justify-center">
       <Icon src={src} name={name} className={className} />
-      <figcaption className="pt-1 text-lg font-semibold tracking-wider text-textPrimary">{name}</figcaption>
+      <figcaption className="pt-1 text-lg font-semibold tracking-wider text-textPrimary">
+        {name}
+      </figcaption>
     </figure>
   )
 }
 export function Icon({ src, name, className }: IconProps) {
   return (
     <div className={`relative ${className}`}>
-      <Image style={{ objectFit: "contain" }} fill src={src} alt={name} />
+      <Image
+        style={{ objectFit: "contain" }}
+        fill
+        src={src}
+        alt={name}
+        sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+      />
     </div>
   )
 }
