@@ -51,13 +51,18 @@ export default function Footer() {
             <Link className="hover:text-white" href="">
               Home
             </Link>
-            <Link className="hover:text-white" href="">
+            <Link className="hover:text-white" target="_blank" rel="noopener noreferrer" href="https://sanmar.com">
               Products
             </Link>
-            <Link className="hover:text-white" href="">
+            <Link className="hover:text-white" href="/contact">
               Contacts
             </Link>
-            <Link className="hover:text-white" href="">
+            <Link
+              className="hover:text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://swipesimple.com/links/lnk_879f7da9"
+            >
               Make Payment
             </Link>
           </div>

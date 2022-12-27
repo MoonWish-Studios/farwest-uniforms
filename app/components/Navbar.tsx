@@ -36,7 +36,9 @@ export default function Navbar() {
 
           <div className="md:pb-0 pb-12">
             <Link
-              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://swipesimple.com/links/lnk_879f7da9"
               className=" hover:border  px-4 py-1.5 text-white rounded-lg font-medium md:block bg-gradient-to-t from-gradientSub1 to-gradientSub3 via-gradientSub2"
             >
               Make Payment
