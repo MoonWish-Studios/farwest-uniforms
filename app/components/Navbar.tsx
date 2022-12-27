@@ -8,7 +8,7 @@ export default function Navbar() {
   let [open, setOpen] = useState(false)
   return (
     <div className="shadow-md w-full  relative top-0 left-0 ">
-      <div className="md:flex md:px-10 px-7 mb-0 items-center justify-between bg-lightPurple py-4">
+      <div className="md:flex md:px-10 px-7 mb-0 items-center border-b border-[#302A3A] justify-between bg-darkPurple py-4">
         <div className="cursor-pointer flex items-center">
           <Link href="/">
             <Image src="/logo.svg" width={130} height={130} alt={""} />
@@ -18,8 +18,8 @@ export default function Navbar() {
           {open ? <IoClose size={35} /> : <IoMenu size={35} />}
         </div>
         <div
-          className={`md:flex md:opacity-100 opacity-100 md:items-center md:static text-xl md:text-lg pb-0 absolute text-textPrimary md:space-x-8
-         bg-lightPurple md:z-auto z-[99] md:pt-0 pt-10 md:pl-0 pl-8 left-0 w-full md:w-auto transition-all duration-500 ease-in ${
+          className={`md:flex md:opacity-100 opacity-100 md:items-center md:static text-xl md:text-base pb-0 absolute text-textPrimary md:space-x-8
+         md:z-auto z-[99] md:pt-0 pt-10 md:pl-0 pl-8 left-0 w-full md:w-auto transition-all duration-500 ease-in ${
            open ? `top-19 opacity-100` : `top-[-490px]`
          }`}
         >
@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="md:pb-0 pb-12">
             <Link
               href=""
-              className=" hover:border  px-4 py-1.5 text-white rounded-lg font-medium md:block bg-gradient-to-r from-gradientSub1 to-gradientSub3 via-gradientSub2"
+              className=" hover:border  px-4 py-1.5 text-white rounded-lg font-medium md:block bg-gradient-to-t from-gradientSub1 to-gradientSub3 via-gradientSub2"
             >
               Make Payment
             </Link>

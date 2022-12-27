@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head />
 
-      <body className="bg-darkPurple">
+      <body className={`bg-backgroundPurple ${outfit.className}`}>
         <Navbar />
         {children}
         <Footer />
