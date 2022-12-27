@@ -31,7 +31,7 @@ export function Industry({ src, name, className }: IconProps) {
 export function Icon({ src, name, className }: IconProps) {
   return (
     <div className={`relative ${className}`}>
-      <Image fill src={src} alt={name} />
+      <Image style={{ objectFit: "contain" }} fill src={src} alt={name} />
     </div>
   )
 }

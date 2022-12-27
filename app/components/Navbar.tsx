@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react"
 import Link from "next/link"
+import GradientButton from "./GradientButton"
 import Image from "next/image"
 import { IoMenu, IoClose } from "react-icons/io5"
 
@@ -11,7 +12,7 @@ export default function Navbar() {
       <div className="md:flex md:px-10 px-7 mb-0 items-center border-b border-[#302A3A] justify-between bg-darkPurple py-4">
         <div className="cursor-pointer flex items-center">
           <Link href="/">
-            <Image src="/logo.svg" width={130} height={130} alt={""} />
+            <Image src="/logo2.png" width={130} height={130} alt={""} />
           </Link>
         </div>
         <div onClick={() => setOpen(!open)} className=" absolute right-6 text-white top-4 cursor-pointer md:hidden">
@@ -24,9 +25,9 @@ export default function Navbar() {
          }`}
         >
           <div className="md:pb-0 pb-12">
-            <a target="_blank" rel="noopener noreferrer" href="https://sanmar.com" className=" hover:text-white">
+            <Link target="_blank" rel="noopener noreferrer" href="https://sanmar.com" className=" hover:text-white">
               Products
-            </a>
+            </Link>
           </div>
           <div className="md:pb-0 pb-12">
             <Link href="/contact" className=" hover:text-white">
@@ -35,14 +36,9 @@ export default function Navbar() {
           </div>
 
           <div className="md:pb-0 pb-12">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://swipesimple.com/links/lnk_879f7da9"
-              className=" hover:border  px-4 py-1.5 text-white rounded-lg font-medium md:block bg-gradient-to-t from-gradientSub1 to-gradientSub3 via-gradientSub2"
-            >
+            <GradientButton className="py-1.5 px-5" href="https://swipesimple.com/links/lnk_879f7da9">
               Make Payment
-            </Link>
+            </GradientButton>
           </div>
         </div>
       </div>

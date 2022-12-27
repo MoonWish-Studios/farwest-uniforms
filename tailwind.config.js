@@ -22,6 +22,7 @@ module.exports = {
       },
       screens: {
         sm: "655px",
+        tablet: "1022px",
       },
     },
   },
