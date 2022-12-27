@@ -11,9 +11,9 @@ import LearnMoreButton from "./components/LearnMoreButton"
 // download headwind extension to autosort classnames so we see the same thing
 export default function Home() {
   return (
-    <div className=" flex flex-col container justify-between ">
+    <div className=" flex flex-col w-full ">
       <LearnMoreButton />
-      <div className="flex flex-col w-[calc(100vw-5rem)] items-center   p-10 sm:p-2">
+      <div className="flex flex-col w-[calc(100vw-5rem)] items-center mx-auto  md:p-10 sm:p-2">
         <div className="sec">
           <CaptionText className="mt-20">Trusted By These Brands And Industries</CaptionText>
           <BrandSection />
