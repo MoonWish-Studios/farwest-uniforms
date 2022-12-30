@@ -28,7 +28,7 @@ export default function page() {
               href="mailto:farwestlogo@yahoo.com"
               className="flex px-11 py-1 rounded-lg border hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1 items-center"
             >
-              <div>Send Email</div>
+              farwestlogo@yahoo.com
             </Link>
           </div>
         </div>
