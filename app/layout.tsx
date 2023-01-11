@@ -22,8 +22,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      
-        gtag('config', 'G-WD36EMCCJT');`}
+
+  gtag('config', 'G-6CZ5W25YEW');`}
       </Script>
 
       <body className={`bg-backgroundPurple ${outfit.className}`}>
