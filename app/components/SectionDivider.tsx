@@ -21,7 +21,7 @@ export default function SectionDivider({ section, heading, caption }: SectionDiv
 
 export function StepDivider({ section }: Divider) {
   return (
-    <div className="my-10 mx-auto relative w-12 h-48 text-center">
+    <div className="relative w-12 h-48 mx-auto my-10 text-center">
       <Image src="/assets/step-divider.svg" alt="Divider Between Sections" fill />
       <label className="absolute abs-transform font-semibold text-white text-2xl -bottom-[9px] left-1/2">
         {section}

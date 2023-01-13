@@ -17,13 +17,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
 
       {/* <!-- Google tag (gtag.js) --> */}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-WD36EMCCJT"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6CZ5W25YEW"></Script>
       <Script id="google-tag">
-        {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-WD36EMCCJT');`}
+        {` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6CZ5W25YEW');`}
       </Script>
 
       <body className={`bg-backgroundPurple ${outfit.className}`}>

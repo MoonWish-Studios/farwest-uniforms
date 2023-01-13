@@ -4,7 +4,7 @@ export interface TextProps {
 }
 
 export function Text({ children }: { children: string }) {
-  return <p className="pt-1 leading-5 w-fit text-textPrimary">{children}</p>
+  return <p className="pt-3 leading-6 w-fit text-textPrimary">{children}</p>
 }
 
 export function HeadingWhite({ children }: { children: string }) {
@@ -32,7 +32,9 @@ export function SectionText({ children, className }: TextProps) {
 }
 export function CaptionText({ children, className }: TextProps) {
   return (
-    <p className={`font-medium  my-2 uppercase  tracking-widest text-sm text-textPrimary text-center ${className}`}>
+    <p
+      className={`font-medium  my-2 uppercase  tracking-widest text-sm text-textPrimary text-center ${className}`}
+    >
       {children}
     </p>
   )

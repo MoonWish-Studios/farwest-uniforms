@@ -5,10 +5,10 @@ import GradientButton from "./GradientButton"
 export default function LearnMoreButton() {
   return (
     <div className="w-full bg-[url('/homebg.png')] tablet:bg-none home flex tablet:justify-between justify-center  border-b border-lightPurple overflow-x-hidden  ">
-      <div className="mt-28 tablet:mt-0 flex flex-col ml-5 mr-5 md:ml-12 pb-20 items-center justify-center tablet:items-start">
+      <div className="flex flex-col items-center justify-center pb-20 ml-5 mr-5 mt-28 tablet:mt-0 md:ml-12 tablet:items-start">
         {/* Text */}
         <h1
-          className="w-96 md:w-[32rem] mb-8 text-4xl leading-normal text-center md:text-4xl lg:text-5xl 
+          className="w-full px-1 md:w-[32rem] mb-8 text-3xl sm:text-4xl leading-normal text-center md:text-4xl lg:text-5xl 
         tablet:text-left md:mt-25 text-white"
         >
           <strong className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gradientSub1 via-gradientSub2 to-gradientSub3 ">
