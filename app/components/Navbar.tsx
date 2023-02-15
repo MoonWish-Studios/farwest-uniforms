@@ -30,7 +30,7 @@ export default function Navbar() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://sanmar.com"
+              href="https://catalog.companycasuals.com/"
               className=" hover:text-white"
             >
               Products
