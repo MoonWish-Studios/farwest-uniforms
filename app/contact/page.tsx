@@ -20,13 +20,13 @@ export default function page() {
           <div className="flex flex-col items-center space-y-2.5">
             <Link
               href="tel:7145309918"
-              className="flex items-center px-8 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
+              className="flex items-center px-7 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
             >
               <div>714-330-9387</div>
             </Link>
             <Link
               href="mailto:farwestlogo@yahoo.com"
-              className="flex items-center px-2 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
+              className="flex items-center px-12 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
             >
               Email Us
             </Link>
