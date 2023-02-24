@@ -23,7 +23,7 @@ export default function ProcedureSection() {
           />
           <HeadingWhite>Choose Your Products</HeadingWhite>
           <Text>Check out the clothing catalog here for the latest apparel to fit your needs</Text>
-          <GradientButton className="py-2 my-4" href="https://www.sanmar.com/">
+          <GradientButton className="py-2 my-4" href="https://catalog.companycasuals.com/">
             Products
           </GradientButton>
         </div>

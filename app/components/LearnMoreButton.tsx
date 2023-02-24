@@ -16,7 +16,7 @@ export default function LearnMoreButton() {
           </strong>
           custom apparel for all industries
         </h1>
-        <GradientButton className="" href="https://www.sanmar.com/">
+        <GradientButton className="" href="https://catalog.companycasuals.com/">
           View Catalog
         </GradientButton>
       </div>

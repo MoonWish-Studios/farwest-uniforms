@@ -70,7 +70,7 @@ export default function Footer() {
               className="hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://sanmar.com"
+              href="https://catalog.companycasuals.com/"
             >
               Products
             </Link>
