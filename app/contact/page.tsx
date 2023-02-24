@@ -20,7 +20,7 @@ export default function page() {
           <div className="flex flex-col items-center space-y-2.5">
             <Link
               href="tel:7145309918"
-              className="flex items-center px-8 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
+              className="flex items-center px-7 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
             >
               <div>(714) 530 9918</div>
             </Link>
