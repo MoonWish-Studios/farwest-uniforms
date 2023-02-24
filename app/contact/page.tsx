@@ -22,11 +22,11 @@ export default function page() {
               href="tel:7145309918"
               className="flex items-center px-7 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
             >
-              <div>714-330-9387</div>
+              <div>(714) 530 9918</div>
             </Link>
             <Link
               href="mailto:farwestlogo@yahoo.com"
-              className="flex items-center px-12 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
+              className="flex items-center px-6 md:px-12 py-1 border rounded-lg hover:bg-white hover:text-gradientSub1 hover:border-gradientSub1"
             >
               Email Us
             </Link>
