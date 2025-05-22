@@ -50,7 +50,7 @@ export default function Footer() {
             <p className="text-gradientSub1">INFO</p>
             <div className="flex flex-row items-center flex-shrink-0 space-x-2 w-fit hover:text-white">
               <Icon src="/assets/mail.svg" name="Email icon" className="w-4 h-4" />
-              <p>farwestlogo@yahoo.com</p>
+              <p>chin@farwestuniforms.com</p>
             </div>
             <div className="flex flex-row items-center flex-shrink-0 space-x-2 w-fit hover:text-white">
               <Icon src="/assets/phone.svg" name="phone icon" className="w-4 h-4" />
