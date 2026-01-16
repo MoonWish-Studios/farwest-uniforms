@@ -41,7 +41,7 @@ export default function page() {
             <p className="text-xl text-center">Or come visit us in person!</p>
           </div>
           <div className="flex items-center justify-center text-base leading-5 text-center">
-            <p className="w-4/5">7201 Garden Grove Blvd Suite E, Garden Grove, CA 92841</p>
+            <p className="w-4/5">7271 Garden Grove Blvd. Unit H, Garden Grove, CA. 92841</p>
           </div>
           <div className="flex flex-col items-center space-y-2.5">
             <Link
