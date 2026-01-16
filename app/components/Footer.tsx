@@ -58,7 +58,7 @@ export default function Footer() {
             </div>
             <div className="flex items-start space-x-2 w-fit hover:text-white">
               <Icon src="/assets/home.svg" name="home icon" className="flex-shrink-0 w-4 h-4" />
-              <div className="">7201 Garden Grove Blvd. Suite E, Garden Grove, CA 92841</div>
+              <div className="">7271 Garden Grove Blvd. Unit H, Garden Grove, CA. 92841</div>
             </div>
           </div>
           <div className="flex flex-col space-y-2 text-textPrimary">
